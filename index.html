@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kablammo&family=Open+Sans:wght@600&family=Poppins:wght@300;900&family=Roboto+Slab:wght@400;700&family=Ysabeau+Infant:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Table</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <table class="customer-table">
+      <thead>
+        <tr>
+          <th>customer</th>
+          <th>ship</th>
+          <th>price</th>
+          <th>status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>franky</td>
+          <td>japan</td>
+          <td class="price">3000</td>
+          <td><button  class="btn btn-hold">on hold</button></td>
+        </tr>
+        <tr>
+          <td>mark</td>
+          <td>england</td>
+          <td class="price">1500</td>
+          <td><button class="btn btn-progress">progress</button></td>
+        </tr>
+        <tr>
+          <td>jane</td>
+          <td>denmark</td>
+          <td class="price">4000</td>
+          <td><button class="btn btn-hold">on hold</button></td>
+        </tr>
+        <tr>
+          <td>jack</td>
+          <td>norway</td>
+          <td class="price">2000</td>
+          <td><button class="btn btn-open">open</button></td>
+        </tr>
+        <tr>
+          <td>rani</td>
+          <td>france</td>
+          <td class="price">5000</td>
+          <td><button class="btn btn-progress">progress</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
